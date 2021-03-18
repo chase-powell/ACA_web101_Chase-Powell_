@@ -1,0 +1,18 @@
+body {
+    background-color:  #7f5058;
+}
+
+.main-container {
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    background-color: white;
+    border: 1px solid black;
+    height: 600px;
+    width:95%;
+}

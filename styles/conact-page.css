@@ -11,8 +11,51 @@ body {
 }
 
 .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     border: 1px solid black;
-    height: 600px;
-    width:95%;
+    height: 700px;
+    width:55%;
+    border-radius: 75px;
+    background-color: #fff3b0;
+}
+.first-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 20px;
+}
+.last-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+label {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+input {
+    height:30px;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 20px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.message input {
+    height: 100px;
+    width: 500px;
 }
